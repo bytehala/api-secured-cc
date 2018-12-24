@@ -25,6 +25,11 @@ repositories {
 
 
 dependencies {
+
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.security:spring-security-core'
+    compile 'org.springframework.security:spring-security-test'
+
     implementation('org.springframework.boot:spring-boot-starter')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
