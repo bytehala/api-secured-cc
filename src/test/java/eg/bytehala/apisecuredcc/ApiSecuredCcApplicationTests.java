@@ -63,7 +63,7 @@ public class ApiSecuredCcApplicationTests {
 
         MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
         params.add("grant_type", "client_credentials");
-//        params.add("client_id", "fooClientIdPassword");
+        params.add("scope", "readwrite");
 //        params.add("client_secret", "testClientSecret");
 
         ResultActions result
